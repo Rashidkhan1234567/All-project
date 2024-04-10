@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: system-ui;
+        }
+.header{
+ background-color: rgb(8, 8, 85);
+
+} 
+ul{
+    padding: 14px;
+}
+nav>ul>li{
+    display: inline;
+    color: white;
+    margin: 10px 20px ;
+    text-transform: capitalize;
+}
+nav>ul>li>span{
+    padding-right: 60px;
+    padding-left: 10px;
+    text-transform: uppercase;
+   
+}
+nav>button{
+border: none;
+background-color: rgb(8, 8, 85);
+color: white;
+font-family: 'Times New Roman', Times, serif;
+text-transform: capitalize;
+/* padding: ; */
+/* display: inline; */
+font-size: 17px;
+
+position: absolute;
+top: 15px;
+right: 250px;
+
+}
+nav>span>button{
+    border: none;
+background-color: rgba(29, 91, 226, 0.829);
+color: white;
+font-family: 'Times New Roman', Times, serif;
+text-transform: capitalize;
+/* padding: ; */
+/* display: inline; */
+font-size: 17px;
+
+position: absolute;
+top: 10px;
+right: 170px;
+padding: 5px;
+border-radius: 8px;
+}
+span>h5{
+  color: #23A6F0; 
+  text-align: center;
+  padding-top: 100px;
+  text-transform: uppercase;
+  
+}
+h1.home{
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+  font-size: 60px;
+  text-transform: capitalize;
+}
+.homebody>p{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+ line-height: 30px;
+}
+.homebody>span>button{
+  color:  rgba(29, 91, 226, 0.829);
+
+margin-top: 38px;
+
+  position: relative;
+  left: 500px;
+   padding:16px 50px;
+  border: 2px solid rgba(29, 91, 226, 0.829);
+border-radius: 5px;
+
+
+   background-color: rgb(8, 8, 85);
+font-weight: bold;
+}
+.homebody>.bodybutton{
+    color:white;
+
+
+
+margin-top: 40px;
+  position: absolute;
+  right: 500px;
+   padding:16px 50px;
+  border: none;
+border-radius: 5px;
+
+
+  background-color: rgba(29, 91, 226, 0.829);
+
+font-weight: bold;
+}
+.cardss{
+  display: flex;
+  margin-top: 40px;
+  padding:30px 10px 90px 90px;
+  
+}
+div>.card1{
+
+  background-color: white;
+
+  width: 260px;
+  height: 220px;
+  
+ 
+}
+.card1>.smallbox{
+  width: 50px;
+  height: 50px;
+  background-color: lightsalmon;
+  margin: 15px 0 10px 23px;
+  border-radius: 5px;
+}
+.card1>.train{
+  margin-top: 15px;
+  margin-left: 23px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #252B42;
+}
+.card1>.linecard1{
+  margin: 20px 0 10px 23px;
+
+}
+.card1>.text{
+  margin: 18px 0 0 23px;
+  font-size: 13px;
+  color: #737373;
+  letter-spacing: 0.30px;
+  
+}
+div>.card2{
+
+  background-color: white;
+
+  width: 260px;
+  height: 220px;
+  margin-left: 20px;
+  
+ 
+}
+.card2>.smallbox2{
+  width: 50px;
+  height: 50px;
+  background-color: lightcoral;
+  margin: 15px 0 10px 23px;
+  border-radius: 5px;
+}
+.card2>.train2{
+  margin-top:15px;
+  margin-left: 23px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #252B42;
+}
+.card2>.linecard2{
+  margin: 20px 0 10px 23px;
+
+}
+.card2>.text2{
+  margin: 18px 0 0 23px;
+  font-size: 13px;
+  color: #737373;
+  letter-spacing: 0.30px;
+  
+
+}
+div>.card3{
+
+
+
+  background: #23A6F0;
+
+  width: 260px;
+  height: 220px;
+  margin-left: 20px;
+  
+ 
+}
+.card3>.smallbox3{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin: 15px 0 10px 23px;
+  border-radius: 5px;
+}
+.card3>.train3{
+  margin-top:15px;
+  margin-left: 23px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+}
+.card3>.linecard3{
+  margin: 20px 0 10px 23px;
+
+}
+.card3>.text3{
+  margin: 18px 0 0 23px;
+  font-size: 13px;
+  color: white;
+  letter-spacing: 0.30px;
+  
+
+
+}
+.secondpage{
+  position: relative;
+  
+}
+.pagetext{
+  position: absolute;
+  left: 120px;
+ top:120px;
+  
+}
+.pagetext>h1{
+  font-size: 40px;
+  padding-top: 20px;
+  letter-spacing: 0.30px;
+}
+.pagetext>.text{
+  margin-top:40px;
+   color: #737373;
+   letter-spacing: 0.50px;
+}
+.pagetext>.sectext2{
+  color: #23A6F0;
+  margin-top: 40px;
+}
+.two{
+    display: flex;
+    gap :70px;
+    justify-content: center;
+}
+.two>.a,.b{
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.two>.c{
+    background-color: rgb(0, 102, 255);
+    width: 330px;
+    height: 250px;
+    padding: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.two>.a>.span{
+    background-color: rgba(255, 0, 0, 0.432);
+    width: 53px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.two img{
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.two>.b>.span{
+    background-color: rgba(0, 102, 255, 0.432);
+    width: 53px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.two>.c>.span{
+    background-color: white;
+    width: 53px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.two .z{
+    background-color: rgb(121, 31, 31);
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.two .x{
+    background-color: white;
+    width: 70px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.body_one{
+    background-color: white;
+    /* background-color: aqua; */
+    width: 1400px;
+    height: 500px;
+    position: relative;
+    padding: 70px 100px;
+}
+.body_one .a{
+    background-color: rgb(121, 31, 31);
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.body_one>h2{
+    padding-bottom: 35px;
+    padding-top: 12px;
+    font-size: 33px;
+}
+/* .body_one>p:nth-child(3){
+    margin-top: 70px;
+    margin-bottom: 20px;
+} */
+.body_one>a{
+    text-decoration: none;
+    color: blue;
+    /* margin-top: 20px; */
+}
+.body_one>.x{
+    position: absolute;
+    top: 100px;
+    right: 240px;
+}
+.body_one>.y{
+    position: absolute;
+    top: 120px;
+    right: 480px;
+}
+.body_one>.z{
+    position: absolute;
+    top: 303px;
+    right: 335px;
+    /* margin-bottom: 50px; */
+}
+.body_one>.b{
+    background-color: rgba(127, 255, 212, 0.315);
+    /* background-color: black; */
+    width: 45px;
+    height: 1px;
+    position: absolute;
+    top: 105px;
+    right: 535px;
+}
+.body_one>.c{
+    background-color: rgba(255, 0, 0, 0.185);
+    /* background-color: aqua; */
+    width: 18px;
+    height: 38px;
+    position: absolute;
+    top:302px;
+    right: 222px;
+
+}
+.video{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 35px;
+    margin-left: 100px;
+    margin-top: 90px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.body_two{
+    margin-top: 200px;
+    /* background-color: aqua; */
+    /* max-width: 1500px; */
+    /* height: 800px; */
+}
+.body_two>.he{
+    margin-left: 100px;
+}
+.body_two>.he>h4{
+    color:  rgb(0, 102, 255);
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.body_two>.he>h1{
+    margin-bottom: 10px;
+}
+.video h5:nth-child(2n-1){
+    background-color: red;
+    display: inline;
+    color: white;
+    padding: 5px;
+    font-size: 10px;
+    position: absolute;
+    top: 15px;
+    /* left: 10px; */
+    margin-left: 12px;
+    width: 40px;
+    text-align: center;
+}
+.video a{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    height: 7px;
+    width: 7px;
+    /* padding: 2px; */
+    /* margin: 2.5px; */
+    /* margin-left: 20px; */
+    position: relative;
+    top: -20px;
+    right: 140px;
+}
+.video i{
+    padding: 2.5px;
+    margin: 2px 0px 2px 0px;
+}
+.video h3{
+    color:   rgb(0, 102, 255);
+}
+.pam{
+    position: relative;
+}
+.video .pam span i{
+    background-color: black;
+    width: 65px;
+    padding: 3px 0px 3px 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: 23px;
+    right: 82px;
+}
+.video .pam span p{
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 90px;
+    padding: 3px 0px 3px 0px ;
+}
+.video h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 1500;
+}
+.video .f>ul>li{
+    display: inline;
+    font-weight: 700;
+}
+.video .f>ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video .span>ul>li{
+    display: inline;
+}
+.video .span>ul>li{
+    color: gray;
+    font-weight: 800;
+}
+.video .span>ul>li>span{
+    color: green;
+    font-weight: 800;
+}
+.video .last>ul>li{
+    display: inline;
+}
+.video .last>ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.video button{
+    background-color: white;
+    color:  rgb(0, 102, 255) ;
+    border: 2px solid   rgb(0, 102, 255);
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    text-align: center;
+}
+.video{
+    margin-bottom: 50px;
+}
+
+    </style>
+</head>
+<body>
+ <div class="main">
+<div class="header">
+<nav>
+    <ul>
+      <li><span>farhan</span></li>  
+        <li>Home</li>
+        <li>Products</li>
+        <li>pricing</li>
+    <li>contact</li>
+    
+</ul>
+
+<button>login</button>
+ <span><button>join us</button></span>
+</nav>
+<div class="homebody">
+  <span><h5>welcome</h5></span>
+  <h1 class="home">Selling on the <br>internet like a pro</h1>
+  <p>we know how large objects will acts, but things on a <br> small scale just do not act that way.</p>
+  <button  class="bodybutton">Get Quete Now</button>
+  <span><button >Learn More</button></span>
+  
+</div>
+<div class="cardss">
+  
+   <div class="card1">
+   <div class="smallbox">
+     
+   </div>
+      <p class="train">training courses</p>                                 <div class="linecard1" style="width: 50px; height: 2px; background: #E74040"></div>                   
+                 <p class="text">   The gradual accumulation of <br>information about atomic and <br /> small-scale behaviour...</p>                
+
+                          
+   </div>    
+<div class="card2">
+   <div class="smallbox2">
+
+     
+
+   </div>
+      <p class="train2">2,769 online courses</p>                              <div class="linecard2" style="width: 50px; height: 2px; background: #E74040"></div>
+                 <p class="text2">   The gradual accumulation of <br>information about atomic and <br /> small-scale behaviour...</p>        
+</div>
+  <div class="card3">
+       <div class="smallbox3">
+
+
+
+     
+
+   </div>
+      <p class="train3">training courses</p>                              <div class="linecard3" style="width: 50px; height: 2px; background: white"></div>
+                 <p class="text3">   The gradual accumulation of <br>information about atomic and <br /> small-scale behaviour...</p>        
+  </div>        
+
+   </div>                 
+
+</div>
+<div class="secondpage">
+  <div class="pagetext">
+      <div style="width: 94px; height: 7px; background: #E74040"></div>"
+    <h1 >packages that are <br> aprodable</h1>
+  </div>
+
+  
+</div>
+ </div>
+ <div class="secondpage">
+
+  <div class="pagetext">
+
+      <div style="width: 94px; height: 7px; background: #E74040"></div>"
+    <h1 >packages that are <br> aprodable</h1>
+    <p class="text">Problems trying to resolve the conflict between <br/>the two major realms of Classical physics: <br/>Newtonian mechanics </p>
+    <p class="sectext2">Learn More                       <div style="width: 7.62px; height: 14px; left: 90px; top: 280px;position: absolute ; background: #23A6F0"></div>
+                         </p>
+  </div>
+ 
+</div>
+  <div class="thirdpage">
+  <div class="pagework3">
+   
+  </div>
+  </div>
+  <div class="two">
+    <div class="a">
+        <div class="span"><img src="img/icon cool-icon-13.jpg" alt=""></div>
+        <h2>Training Courses</h2>
+        <div class="z"></div>
+        <p>The gradual accumulation of</p> 
+        <p>information about atomic and </p>
+        <p>small-scale behaviour...</p>
+    </div>
+    <div class="b">
+       <div class="span"><img src="img/icon cool-icon-20.jpg" alt=""></div> 
+        <h2>2,769 online courses</h2>
+        <div class="z"></div>
+        <p>The gradual accumulation of</p> 
+        <p> information about atomic and </p>
+        <p> small-scale behaviour...</p>
+        </div>
+    <div class="c">
+    <div class="span"><img src="img/icon cool-icon-15.jpg" alt=""></div> 
+    <h2>Training Courses</h2>
+    <div class="x"></div>
+    <p>The gradual accumulation of</p> 
+    <p>information about atomic and </p>
+    <p>small-scale behaviour...</p>
+    </div>
+</div>   
+ </div><!--this is header -->
+ <div class="body_one">
+    <div class="a"></div>
+    <h1>Packages that are</h1>
+    <h2>aprodable</h2>
+    <p>Problems trying to resolve the conflict between</p> 
+    <p>the two major realms of Classical physics:</p> 
+    <p> Newtonian mechanics </p><br>
+    <a href="/">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+    <div class="b"></div>
+    <div class="c"></div>
+    <div class="x"><img src="img/top1.jpeg" alt="" width="280px" height="240px"></div>
+    <div class="y"><img src="img/top2.png" alt="" width="150px"></div>
+   <div class="z"><img src="img/top3.png" alt="" width="300px" height="120px"></div>
+ </div>
+ <div class="body_two">
+   <div class="he"><h4>Practice Advice</h4>
+    <h1>Make online education accessible</h1>
+<p>Problems trying to resolve the conflict between</p>
+<p>the two major realms of Classical physics: Newtonian mechanics</p></div> 
+<div class="video">
+    <div class="video-one">
+        <h5>Sale</h5>
+        <img src="img/video1.jpeg" alt="" width="190px" height="250px">
+         <a href="/"><!--<i class="fa-light fa-heart fa-fade"></i>--><i class="fa-solid fa-heart"></i></a>
+         <a href="/"><i class="fa-solid fa-cart-shopping"></i></a>
+         <a href="/"><i class="fa-solid fa-eye"></i></a>
+        <span class="pam"><h3>English</h3>
+         <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <p>4.9</p>
+        </span> 
+        <h4>Graphic Design</h4>
+        <p>We focus on ergonomics</p>
+        <p>and meeting you....</p>
+        <div class="f">
+            <ul>
+                <li><i class="fa-solid fa-download"></i></li>
+                <li>15 Sales</li>
+            </ul>
+        </div>
+        <div class="span">
+            <ul>
+                <li>$16.48</li>
+                <li><span>$6.48</span></li>
+            </ul>
+        </div>
+        <div class="last">
+            <ul>
+                <li><img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">Pro...</li>
+                <li> <i class="fa-solid fa-water" style="color: #a80022;"></i>64 Les...</li>
+                <li> <img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">24hr..</li>
+            </ul>
+            </div>
+        <button>Learn more<i class="fa-solid fa-chevron-right"></i></button>
+        </span>
+    </div> 
+    <div class="video_two">
+        <h5>Sale</h5>
+        <img src="img/video2.jpeg" alt="" width="190px" height="250px">
+         <a href="/"><!--<i class="fa-light fa-heart fa-fade"></i>--><i class="fa-solid fa-heart"></i></a>
+         <a href="/"><i class="fa-solid fa-cart-shopping"></i></a>
+         <a href="/"><i class="fa-solid fa-eye"></i></a>
+         <span class="pam"><h3>English</h3>
+         <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <p>4.9</p>
+        </span> 
+        <h4>Graphic Design</h4>
+        <p>We focus on ergonomics</p>
+        <p>and meeting you....</p>
+        <div class="f">
+            <ul>
+                <li><i class="fa-solid fa-download"></i></li>
+                <li>15 Sales</li>
+            </ul>
+        </div>
+        <div class="span">
+            <ul>
+                <li>$16.48</li>
+                <li><span>$6.48</span></li>
+            </ul>
+        </div>
+        <div class="last">
+            <ul>
+                <li><img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">Pro...</li>
+                <li> <i class="fa-solid fa-water" style="color: #a80022;"></i>64 Les...</li>
+                <li> <img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">24hr..</li>
+            </ul>
+            </div>
+        <button>Learn more<i class="fa-solid fa-chevron-right"></i></button>
+        </span>
+    </div>
+    <div class="video_three">
+        <h5>Sale</h5>
+        <img src="img/video3.jpeg" alt="" width="190px" height="250px">
+         <a href="/"><!--<i class="fa-light fa-heart fa-fade"></i>--><i class="fa-solid fa-heart"></i></a>
+         <a href="/"><i class="fa-solid fa-cart-shopping"></i></a>
+         <a href="/"><i class="fa-solid fa-eye"></i></a>
+         <span class="pam"><h3>English</h3>
+         <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <p>4.9</p>
+        </span> 
+        <h4>Graphic Design</h4>
+        <p>We focus on ergonomics</p>
+        <p>and meeting you....</p>
+        <div class="f">
+            <ul>
+                <li><i class="fa-solid fa-download"></i></li>
+                <li>15 Sales</li>
+            </ul>
+        </div>
+        <div class="span">
+            <ul>
+                <li>$16.48</li>
+                <li><span>$6.48</span></li>
+            </ul>
+        </div>
+        <div class="last">
+            <ul>
+                <li><img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">Pro...</li>
+                <li> <i class="fa-solid fa-water" style="color: #a80022;"></i>64 Les...</li>
+                <li> <img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">24hr..</li>
+            </ul>
+            </div>
+        <button>Learn more<i class="fa-solid fa-chevron-right"></i></button>
+    </span>
+    </div>
+    <div class="video_four">
+        <h5>Sale</h5>
+        <img src="img/video4.jpeg" alt="" width="193px" height="253px">
+         <a href="/"><!--<i class="fa-light fa-heart fa-fade"></i>--><i class="fa-solid fa-heart"></i></a>
+         <a href="/"><i class="fa-solid fa-cart-shopping"></i></a>
+         <a href="/"><i class="fa-solid fa-eye"></i></a>
+         <span class="pam"><h3>English</h3>
+         <span><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <p>4.9</p>
+        </span> 
+        <h4>Graphic Design</h4>
+        <p>We focus on ergonomics</p>
+        <p>and meeting you....</p>
+        <div class="f">
+            <ul>
+                <li><i class="fa-solid fa-download"></i></li>
+                <li>15 Sales</li>
+            </ul>
+        </div>
+        <div class="span">
+            <ul>
+                <li>$16.48</li>
+                <li><span>$6.48</span></li>
+            </ul>
+        </div>
+        <div class="last">
+            <ul>
+                <li><img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">Pro...</li>
+                <li> <i class="fa-solid fa-water" style="color: #a80022;"></i>64 Les...</li>
+                <li> <img src="img/COLOURBOX26602394.webp" alt="" width="15px" height="15px">24hr..</li>
+            </ul>
+            </div>
+        <button>Learn more<i class="fa-solid fa-chevron-right"></i></button>
+        </span>
+    </div>
+</div> <!--this is video-->
+ </div> <!--this is body_two -->
+ 
+
+</body>
+</html>

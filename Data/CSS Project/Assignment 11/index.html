@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashid</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            /* background-color: rgba(0, 102, 255, 0.075); */
+        }
+        .style{
+            float: left;
+            /* text-align: center; */
+            margin-top: 200px;
+            margin-left: 100px;
+            /* animation: ani 1s linear alternate; */
+        }
+        .style>h1{
+            color: rgb(44, 44, 255);
+            font-size: 60px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-bottom:10px ;
+        }
+        .style>p{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .form{
+            float: right;
+            /* display: inline-block; */
+            margin-right: 300px;
+            margin-top: 100px;
+            /* padding: 50px; */
+            /* border: none; */
+            height: 300px;
+        }
+        .form legend{
+            text-align: center;
+            font-family: algerian,courier;
+            font-size: 40px;
+            background-color: rgba(255, 255, 255, 0.596);
+            padding: 5px;
+        }
+        .form fieldset{
+            padding: 30px;
+            height: 450px;
+            box-shadow: 0px 0px 10px black;
+            animation: ani 1.5s linear infinite;
+        }
+        @keyframes ani{
+            100%{
+                box-shadow: 0px 0px 10px yellow;
+            }
+        }
+        .form fieldset:hover{
+            box-shadow: 0px 0px 10px  rgb(60, 60, 255),
+                        0px 0px 10px  rgb(60, 60, 255),
+                        0px 0px 10px  rgb(60, 60, 255),
+                        0px 0px 10px  rgb(60, 60, 255);
+        }
+        input[type=email]{
+            width: 350px;
+            height: 48px;
+            margin-bottom: 15px;
+            padding: 5px;
+            outline: none;
+        }
+        input[type=email]:hover{
+            border: none;
+            outline: none;
+            border-bottom: 2px solid black;
+            /* border-radius: 2px; */
+        }
+        input[type=email]:focus{
+            border: none;
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        input[type=password]{
+            width: 350px;
+            height: 48px;
+            margin-bottom: 15px;
+            padding: 5px;
+        }
+        input[type=password]:hover{
+            border: none;
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        input[type=password]:focus{
+            border: none;
+            outline: none;
+            border-bottom: 2px solid black;
+        }
+        button{
+            height: 48px;
+            width: 350px;
+            background-color:  rgb(60, 60, 255);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 25px;
+            padding: 10px 0px 15px 0px ;
+            margin-bottom: 40px;
+            cursor: pointer;
+            font-family: times new roman;
+        }
+        button:active{
+            transform: scale(0.96);
+        }
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: blue;
+            margin-left: 100px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        a::before{
+            content: "";
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            height: 3px;
+            width: 140px;
+            transition: 0.3s ;
+            border-radius: 25px;
+            transform: scaleX(0);
+            background: black;
+        }
+        a:hover:before{
+            transform: scaleX(1);
+        }
+        span>button{
+            height: 48px;
+            width: 250px;
+            background-color: limegreen;
+            /* justify-content: center; */
+            margin-left: 45px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="style">
+            <h1>facebook</h1>
+            <p>Connect with friends and the world</p>
+            <p>around you a Facebook.</p>
+        </div>
+        <div class="form">
+            <fieldset>
+                <legend>LOGIN</legend>
+                <input type="email" placeholder="Email or phone number" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <button type="button">Login</button><br>
+                <a href="/">Forget password?</a>
+                <br><br>
+                <hr>
+                <br><br>
+                <span><button>Create new account</button></span>
+            </fieldset>
+        </div>
+    </div>
+</body>
+</html>

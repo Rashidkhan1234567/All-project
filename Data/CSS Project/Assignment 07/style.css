@@ -1,0 +1,91 @@
+#main{
+    margin: 0%;
+    padding: 0%;
+}
+.contanier{
+    background-color: rgb(8, 24, 131);
+    text-align: center;
+    height: 130px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px                     ;
+}
+.contanier:active{
+    color: rgb(8, 24, 131);
+    background-color: black;
+}
+/* .a{
+    text-transform: uppercase;
+    margin-top: -15.99px;
+    display: flex;
+    gap: 239px;
+    background-color: rgb(9, 9, 77);
+    color: aliceblue;
+    
+} */
+/* .z{
+    margin-left: 20px;
+} */
+/* .a:hover{
+    background-color: rgb(66, 167, 167);
+} */
+/* a{
+    text-decoration: none;
+    display: flex;
+    background-color: rgb(7, 7, 80);
+    color: white;
+} */
+/* p>a{
+    text-decoration: none;
+    color: white;
+}
+p>a:hover{
+    background-color: rgba(14, 164, 223, 0.863);
+} */
+.b{
+    text-align: center;
+    background-color: rgb(42, 34, 158);
+    text-transform: uppercase;
+    height: 40px;
+}
+.grocery{
+    border: 1px solid;
+    border-color: white;
+}
+.th{
+    border: 1px solid;
+    border-color: white;
+    padding: 20px;
+    background-color: rgb(9, 9, 77);
+    color: white;
+    padding: 50px;
+    width: 350px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.th:hover{
+    background-color: rgba(14, 164, 223, 0.863);
+}
+.broke{
+    border: 1px solid;
+    border-color: rgb(9, 9, 77);
+    background-color: rgb(9, 9, 77);   
+}
+th{
+    border: 1px solid;
+    border-color: rgb(9, 9, 77);
+    padding: 20px;
+    background-color: rgb(9, 9, 77);
+    color: white;
+    padding:10px;
+    width: 350px;
+}
+th:hover{
+    background-color: rgba(14, 164, 223, 0.863);
+}
+th>a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    text-transform: uppercase ;
+}   

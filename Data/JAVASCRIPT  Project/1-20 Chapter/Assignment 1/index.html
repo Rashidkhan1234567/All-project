@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alart-1</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        height: 100vh;
+        min-width: 735px;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        color: white;
+        background-image: url(https://i.gifer.com/origin/61/6187a35c6cf047475af401d5fe070034_w200.gif);
+        /*
+           style on  h1 , input , button
+         */
+        button {
+          width: 200px;
+          height: 40px;
+          border-radius: 30px;
+          border: 2px solid black;
+          background-color: #c2c2c2;
+          font-size: 18px;
+          font-weight: 700;
+          margin-top: 20px;
+        }
+        input {
+          width: 300px;
+          height: 40px;
+          border-radius: 7px;
+          border: none;
+          outline: none;
+          font-size: 20px;
+          padding: 0px 15px 0px 15px;
+        }
+        h1 {
+          font-size: 70px;
+          font-family: Consolas;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!--------  INPUT FEILD    -------->
+    <h1>Enter your Password</h1>
+    <input type="password" placeholder="Enter your Password..." />
+    <button type="button" onclick="reload()">Enter</button>
+
+    <!--------  END INPUT FEILD  -------->
+    <!--------  START SCRIPT  -------->
+    <script>
+      alert("Error! Please enter a valid password.");
+      alert("JavaScript\n\n\nWelcome to JS Land...\nHappy Coding!");
+      alert("JavaScript\n\n\nHappy Coding!\n\n⬜ Prevent this page from creating additional dialogs.");
+      alert("JavaScript\n\n\nHello... I can run JS through my web browser's Console");
+
+      //         EXTRA
+      const button = document.querySelector("button");
+      button.addEventListener("click", () => {
+        window.location.reload();
+      });
+    </script>
+  </body>
+</html>

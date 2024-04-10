@@ -1,0 +1,263 @@
+*{
+    margin: 0PX;
+    padding: 0PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.friend{
+    display: flex;
+}
+h1{
+    background-color: rgb(6, 197, 108);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+h1>.o>p{
+    font-size: 20px;
+    color:  rgb(6, 197, 108);
+    font-family: system-ui;
+}
+h1>.o>span{
+    font-size: 15px;
+    color:  rgb(6, 197, 108);
+}
+h1>.o{
+    margin-left: 1260px;
+
+    margin-bottom: -63px;
+}
+.main>.rashid>ul>li{
+    display: inline;
+    padding: 18px;
+}
+.main>.rashid>ul>.a>li{
+    display: inline;
+    padding: 18px;
+    background-color: antiquewhite;
+}
+.main>.rashid>ul>.a>li:hover{
+    background-color:  rgb(6, 197, 108);
+    color: white;
+}
+.main>.rashid>ul>.b>a>li{
+    display: inline;
+    padding: 15px;
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: black;
+}
+.main>.rashid>ul>.b>a{
+    text-decoration: none;
+}
+.main>.rashid>ul>.b>a>li:hover{
+      background-color: rgba(212, 237, 245, 0.863);
+}
+.main>.rashid>ul{
+    padding: 12px 0px 12px 0px;
+    background-color: antiquewhite;
+}
+.main>.rashid>ul>li>input[type=search]{
+    border-radius: 20px;
+    border: 1px solid;
+    height: 30px;
+    width: 190px;
+}
+.main>.rashid>ul>li>input[type=search]:focus{
+    border-radius: 20px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+.main>.rashid>ul>li>input:placeholder-shown{
+    font-size: 17px;
+    text-align: center;
+    padding-right:45px;
+}
+.main>.rashid>ul>li>a>button{
+    padding: 6px;
+    background-color: rgba(173, 216, 230, 0.836);
+    border-radius: 20px;
+    /* margin: 0; */
+    width: 100px;
+    overflow: hidden;
+    /* margin-left: 60px; */
+}
+.main>.rashid>ul>li>span>a>button:hover{
+    background-color:  rgb(2, 167, 90);
+    width: 110px;
+    height: 40px;
+}
+.main>.rashid>ul>li>span>a>button{
+    padding: 6px;
+    background-color: rgb(6, 197, 108);
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    overflow: hidden;
+    /* margin-right: 30px; */
+}
+.main>.rashid>ul>li>span>a{
+    margin-left: -65px;
+}
+.main>.rashid>ul>li>a{
+   overflow: hidden;
+}
+.main>.rashid>ul>li>a>button:hover{
+    background-color:  rgba(5, 182, 99, 0.918);
+    width: 110px;
+    height: 40px;
+}
+.main>nav>ul>li{
+    display: inline;
+    padding: 13px;
+}
+.main>nav>ul>li:hover{
+    background-color: black;
+    box-sizing: border-box;
+}
+.main>nav>ul>li:active{
+    background-color: rgb(6, 197, 108);
+    border: 2px solid  black;
+    box-sizing: border-box;
+}
+.main>nav>ul{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding: 12px;
+    height: 20px;
+    /* overflow-x: hidden; */
+    /* overflow-y: scroll; */
+    /* width: 198vh; */
+}
+.a{
+    background-color: lightgray;
+    height: 500px;
+    width: 195px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* padding: 20px; */
+    /* font-size: 20px; */
+}
+.a>span{
+    font-size: 24px;
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px opx 20px 0px;
+    text-align: center;
+}
+.a>p{
+    font-size: 18px;
+    cursor: pointer;
+    padding: 3px 0px 2px 20px;
+
+
+}
+.a>p:hover{
+     background-color: rgb(6, 197, 108);
+     color: white;
+}
+.part02{
+       /* text-align: center; */
+       /* display: flex; */
+       margin-top: 20px;
+       background-color: white;
+       height: 480px;
+       width:1200px;
+       overflow-y: scroll;
+       scroll-behavior: smooth;
+}
+h2{
+    font-size: 50px;
+    margin-left: 40px;
+    font-family: system-ui;
+    font-weight: 400;
+}
+ .b>button{
+      background-color: rgb(6, 197, 108);
+      padding: 9px;
+      margin: 20px;
+      width: 100px;
+      height: 50px;
+      font-size: 25px;
+
+
+    /* background-color:  rgb(6, 197, 108);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 400px;
+    padding: 12px;
+    font-size: 2em; */
+ } 
+ .b>button:hover{
+    background-color:  rgb(2, 167, 90); 
+ }
+ .b>span>a>button{
+    background-color: rgb(6, 197, 108);
+    padding: 9px;
+    margin-left: 740px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+ }
+ .b>span>button:hover{
+    background-color:  rgb(2, 167, 90);
+ }
+.c{
+    /* display: ; */
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 170px;
+}
+.c>p{
+   background-color:  rgba(6, 197, 108, 0.267);
+   /* width: 400px; */
+   text-align: center;
+   padding: 20px;
+   margin-left: 10px;
+}
+.c>p>a>button{
+    background-color:  rgb(6, 197, 108);
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 15px;
+    padding: 12px;
+    font-size: 2em;
+}
+.c>p>button:hover{
+    background-color:  rgb(2, 167, 90);
+}
+.extra>p{
+    margin-left: 40px; 
+    letter-spacing: 1px;
+    padding: 7px; 
+    font-size: 18px;
+}
+.extra>h2{
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 50px;
+}
+.extra>a{
+    color: black;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.extra>a>button{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.extra>a>button:hover{
+    background-color: rgba(2, 167, 90);
+}

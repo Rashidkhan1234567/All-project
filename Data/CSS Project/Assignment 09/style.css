@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: system-ui ;
+}
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0px 25px 0px;
+}
+table{
+    border: 1px solid white;
+}
+table:hover{
+    
+}
+thead th{
+    border: 1px solid white;
+    background-color: rgb(39, 136, 160);
+    padding: 10px;
+    color: white;
+    font-weight: 480;
+}
+thead th:hover{
+    border: 1px solid white;
+    background-color: rgb(2, 98, 122);
+    transition: 0.5s;
+   }
+tbody th{
+    width: 300px;
+    height: 45px;
+    text-align: left;
+    padding: 3px;
+    box-shadow: 0px 2px 4px gray;
+}
+tbody th:hover{
+    background-color: lightgray;
+    transition: 0.5s;
+}
+td{
+    border: none;
+    border-bottom: 1px solid rgb(39, 136, 160);
+    box-shadow: 0px -1.5px 3px rgb(39, 136, 160);
+    width: 150px;
+    text-align: right;
+    padding: 5px;
+}
+td:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    transition: 0.5s;
+}

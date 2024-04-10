@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RASHID</title>
+<style>
+    body{
+        background-color: black;
+        color: white;
+    }
+    table{
+        background-color: white;
+        color: #000;
+        margin-top: 11px;
+    }
+    button{
+        margin-top: 1rem;
+        padding: 8px;
+        width: 100px;
+        background: linear-gradient(to right,cyan,rgba(247, 35, 247, 0.822),rgb(250, 53, 86));
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        color: whitesmoke;
+        border: 2px solid white;
+    }
+    h1{
+        background-color: white;
+        color: #000;
+        display: inline;
+        padding: 6px;
+    }
+</style>
+</head>
+<body>
+   <center><h1>Nested Tables</h1>
+    <table border="9px">
+        <center>
+            <tr>
+                <th>Header Colume 1 </th>
+                <th>Header Colume 2 </th>
+                <th>Header Colume 3 </th>
+                <th>Header Colume 4 </th>
+            </tr>
+        </center>
+        <tr>
+            <td>Row 2 - Item 1</td>
+            <td>Row - Item 2</td>
+            <th rowspan="2"><p>Row 2:Nested Table 1</p>
+              <br>
+                <table border="1px">
+                    <tr>
+                       <th>Row 1 Header</th>
+                       <td>item</td>
+                    </tr>
+                    <tr>
+                       <th>Row 2 Header</th>
+                       <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3 Header</th>
+                        <td>item</td>
+                     </tr>
+               </table>    
+            </th>
+            <td><p>Row 2 - Item 4</p><p>A Second Line</p></td>
+        </tr>
+        <tr>
+            <th><p>Row 3: Nested Table 2</p>
+            <br>
+                <table border="1px">
+                 <tr>
+                    <th>Row 1 Header</th>
+                    <td>item</td>
+                 </tr>
+                 <tr>
+                    <th>Row 2 Header</th>
+                    <td>item</td>
+                 </tr>
+            </table>
+            </th>
+            <td>Row 3 - Item 2</td>
+            <td rowspan="2">Row 3 - Item 3</td>
+        </tr>
+        <tr>
+            <td>Row 4 - Item 1</td>
+            <td>Row 4 - Item 2</td>
+            <td>Row 4 - Item 3</td>
+        </tr>
+        <tr>
+            <td colspan="4">Row 5 Last row of outer table</td>
+        </tr>
+    </table>
+    <br>
+    <a href="index1.html"><button>NEXT</button></a></center> 
+</body>
+</html>

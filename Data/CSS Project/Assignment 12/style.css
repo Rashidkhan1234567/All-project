@@ -1,0 +1,393 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.left{
+    display: inline-block;
+    background-color: aliceblue;
+    /* width: 350px; */
+    height: 638px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    /* display: block; */
+}
+.head{
+    background-color: lightgrey;
+    height: 40px;
+    padding: 3px;
+    /* margin: 3px; */
+    /* display: inline-block; */
+    position: relative;
+    /* position: fixed; */
+}
+.head>.a{
+    background-image: url(images/main.jpeg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    /* background-position: center; */
+    background-size: 30px;
+    margin-left: 5px;
+    padding-top: 6px;
+}
+.head>p{
+    margin-top: 6px;
+    padding-bottom: 5px;
+    padding-right: 159px;
+    margin-left: 60px;
+    font-family: algerian,courier;
+    /* float: left; */
+}
+.head>i{
+    /* float: right; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.head>span{
+    position: absolute;
+    top: 9px;
+    right: 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.left>input[type=search]{
+    width: 300px;
+    height: 40px;
+    background-image: url(images/download.png);
+    background-size: 18px;
+    background-origin: border-box;
+    /* background-blend-mode: color-dodge; */
+    background-position: left center;
+    padding-left: 70px;
+    /* padding-top: 3px; */
+    font-size: 18px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left:15px ;
+    border: none;
+    /* margin-bottom: 10px; */
+}
+.chats{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 8px;
+}
+.chat:hover{
+    background-color: lightblue;
+}
+.chats span{
+    float: right ;
+    float: center;
+    /* position: absolute; */
+    /* top: 2px; */
+    /* right: 100px; */
+    /* padding-bottom: 10px; */
+}
+.chat-one>p{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+    /* padding-top: 3px; */
+}
+.chat-one>.a{
+    background-image: url(images/download\ \(10\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 10px;
+}
+.hu{
+    /* float: left; */
+    margin-left: 50px;
+    color: rgb(5, 214, 5);
+}
+.chat-two{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-two>.a{
+    background-image: url(images/download\ \(11\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 65px;
+}
+.chat-three{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-three>.a{
+    background-image: url(images/download\ \(9\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 120px;
+}
+.chat-four{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-four>.a{
+    background-image: url(images/download\ \(8\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 180px;
+}
+.chat-five{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-five>.a{
+    background-image: url(images/download\ \(7\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 240px;
+}
+.chat-six{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-six>.a{
+    background-image: url(images/download\ \(6\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 298px;
+}
+.chat-seven{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-seven>.a{
+    background-image: url(images/download\ \(5\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 355px;
+}
+.chat-eight{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-eight>.a{
+    background-image: url(images/download\ \(4\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 415px;
+}
+.chat-nine{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-nine>.a{
+    background-image: url(images/download\ \(3\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 475px;
+}
+.chat-ten{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-ten>.a{
+    background-image: url(images/download\ \(2\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 533px;
+}
+.chat-last{
+    padding-bottom: 3px;
+    margin-left: 50px;
+    font-family: times;
+}
+.chat-last>.a{
+    background-image: url(images/download\ \(1\).jpeg);
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 10px;
+    background-size: 18px;
+    border-radius: 50%;
+    top: 593px;
+}
+.right{
+    display: inline-block;
+}
+.beat{
+    background-color: lightgray;
+    width: 1000px;
+    height: 60px;
+    position: relative;
+    display: flex;
+    margin-bottom: 540px;
+    border-radius: 10px;
+}
+.beat>img{
+    border-radius: 50%;
+    /* float: left center; */
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.beat>p{
+    margin-top: 10px;
+    font-family: impact;
+    font-size: 20px;
+}
+.beat>.z{
+    margin-top: 35px;
+    position: absolute;
+    left: 75px;
+    color: rgb(107, 106, 106);
+}
+.beat>i{
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.beat>span>i{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(144, 238, 144, 0.144);
+    overflow-y: hidden;
+}
+.body>p{
+    background-color: rgba(144, 238, 144, 0.664);
+    display: inline;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    right: 480px;
+    border-radius: 5px;
+}
+.body>.first{
+    background-color: rgba(144, 238, 144, 0.664);
+    /* display: inline; */
+    width: 350px;
+    position: absolute;
+    right: 20px;
+    height: 70;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    top: 350px;
+}
+.body>.first>span{
+    /* position: absolute; */
+    /* right: 20px; */
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.body>.second{
+    background-color: rgba(144, 238, 144, 0.664);
+    width: 350px;
+    position: absolute;
+    left: 350px;
+    top: 420px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 7px 0px 7px 10px ;
+    border-radius: 5px;
+}
+.body>.second>p>span{
+    float: right;
+    margin-right: 8px;
+}
+.body>.third{
+    background-color: rgba(144, 238, 144, 0.664);
+    /* display: inline; */
+    width: 350px;
+    position: absolute;
+    right: 20px;
+    height: 70;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    top: 500px;   
+}
+.body>.third a{
+    color: blue;
+}
+.body>.third>span{
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.foot input[type=text]{
+    width: 930px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+}
+.foot{
+    position: relative;
+    bottom: 20px;
+}
+.foot>i{
+    font-size: 25px;
+    padding: 0px 8px 3px 8px ;
+    margin-bottom: 0px;
+}
+.foot>span{
+    font-size: 25px;
+    padding: 0px 8px 9px 8px ;
+    /* margin-right: 9px; */
+
+}
