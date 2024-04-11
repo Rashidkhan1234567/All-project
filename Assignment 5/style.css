@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.math>h1 {
+    text-align: center;
+    background-color: aquamarine;
+    height: 60px;
+    font-size: 45px;
+    padding-top: 12px;
+}
+
+.math>p {
+    text-align: center;
+    padding-top: 20px;
+    background-color: cornflowerblue;
+    height: 50px;
+    font-size: 25px;
+}
+
+#para {
+    background-color: darkcyan;
+    font-size: 20px;
+    font-family: eras ITC;
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+}
+
+pre {
+    text-align: center;
+    font-size: 70px;
+    padding: 15px 0px 15px 0px;
+    background: linear-gradient(140deg, yellowgreen, limegreen);
+    font-family: forte;
+    letter-spacing: 5px;
+}
+
+#ticket {
+    font-size: 24px;
+    font-family: eras ITC;
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    background-color: darkseagreen;
+}
+
+.table {
+    text-align: center;
+    /* padding: 20px 0px 20px 0px; */
+}
+
+#program {
+    font-family: eras ITC;
+    background: darkgoldenrod;
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+#line-1 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 30px 0px 8px 0px;
+}
+
+#line-2 {
+    background-color: lightgreen;
+    font-size: 35px;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-3 {
+    background-color: lightgreen;
+    font-size: 35px;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-4 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-5 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-6 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-7 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-8 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-9 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+#line-10 {
+    font-size: 35px;
+    background-color: lightgreen;
+    font-family: sans-serif;
+    word-spacing: 40px;
+    padding: 8px 0px 8px 0px;
+}
+
+.temp {
+    text-align: center;
+    background-color: aqua;
+    padding: 20px 0px 20px 0px;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: sans-serif;
+    word-spacing: 8px;
+}
+
+.shopping-cart {
+    background-color: lightblue;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px 20px 0px;
+    line-height: 50px;
+    font-family: eras ITC;
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+    font-family: lucida calligraphy;
+    background-color: violet;
+}
+
+.marksheet>h1 {
+    text-align: center;
+    background: lightcoral;
+    font-family: lucida calligraphy;
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
+
+.marksheet>p {
+    background-color: lightsalmon;
+    text-align: center;
+    font-family: eras ITC;
+    font-size: 25px;
+    line-height: 50px;
+    /* padding: 30px 0px 30px 0px; */
+}
+
+.currency {
+    h1 {
+        text-align: center;
+        background: lightcoral;
+        font-family: lucida calligraphy;
+        font-size: 50px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    p {
+        background: rgba(255, 166, 0, 0.788);
+        text-align: center;
+        font-family: eras ITC;
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .cu {
+        padding-bottom: 30px;
+    }
+
+    .de {
+        padding-top: 30px;
+
+        word-spacing: 6px;
+    }
+}
+
+.section-09 {
+    p {
+        background: rgba(153, 50, 204, 0.89);
+        text-align: center;
+        font-family: eras ITC;
+        font-size: 25px;
+        line-height: 50px;
+        word-spacing: 5px;
+    }
+
+    .n {
+        padding-bottom: 30px;
+    }
+
+    .r {
+        padding-top: 30px;
+    }
+}
+
+.birth {
+    h1 {
+        text-align: center;
+        background: darkorange;
+        font-family: lucida calligraphy;
+        font-size: 50px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    p {
+        background: rgba(163, 2, 163, 0.836);
+        text-align: center;
+        font-family: eras ITC;
+        font-size: 25px;
+        line-height: 50px;
+        word-spacing: 5px;
+    }
+
+    #C-year {
+        padding-top: 30px;
+    }
+
+    #Y-age {
+        padding-bottom: 30px;
+    }
+}
+
+.geo {
+    h1 {
+        text-align: center;
+        background: royalblue;
+        font-family: lucida calligraphy;
+        font-size: 50px;
+        padding: 20px 0px 20px 0px;
+    }
+
+    p {
+        background: rgb(250, 83, 111);
+        text-align: center;
+        font-family: eras ITC;
+        font-size: 25px;
+        line-height: 50px;
+        word-spacing: 5px;
+    }
+
+    #geo-radius {
+        padding-top: 30px;
+    }
+
+    #geo-area {
+        padding-bottom: 30px;
+    }
+}
+
+.Life {
+    h1 {
+        text-align: center;
+        background: teal;
+        font-family: lucida calligraphy;
+        font-size: 50px;
+        padding: 30px 0px 30px 0px;
+    }
+
+    p {
+        background: mediumaquamarine;
+        text-align: center;
+        font-family: eras ITC;
+        font-size: 25px;
+        line-height: 50px;
+        word-spacing: 5px;
+    }
+
+    #life-snack {
+        padding-top: 30px;
+    }
+
+    #life-total {
+        padding-bottom: 30px;
+    }
+}
