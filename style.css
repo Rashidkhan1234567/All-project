@@ -189,7 +189,7 @@ nav li:nth-child(1):hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 128vh;
     flex-wrap: wrap;
     row-gap: 70px;
     column-gap: 100px;
@@ -435,7 +435,7 @@ nav li:nth-child(1):hover {
     display: flex;
     justify-content: space-evenly;
     /* align-items:center; */
-    margin-top: 200px;
+    margin-top: 50px;
     /* height:100vh; */
 
     h2 {
