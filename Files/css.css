@@ -111,7 +111,8 @@ nav {
     position: fixed;
     z-index: 50;
     top: 0;
-    min-width: 1350px;
+    max-width: 1350px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: gray;
@@ -183,11 +184,11 @@ nav li:nth-child(2):hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 280vh;
+    /* height: 220vh; */
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 100px;
-    margin-top: 150px;
+    margin-top: 90px;
     margin-bottom: 70px;
 }
 
@@ -198,6 +199,8 @@ nav li:nth-child(2):hover {
     color: #148dff;
     background-color: #010707;
     transition: 0.5s;
+    margin-top: 60px;
+
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 15px whitesmoke, 0px 0px 30px rebeccapurple, 0px 0px 50px rgb(24, 24, 24);
@@ -421,7 +424,7 @@ nav li:nth-child(2):hover {
     background-color: #fff;
     margin-left: 10px;
     position: absolute;
-    top: 1700px;
+    top: 1580px;
 
 }
 
